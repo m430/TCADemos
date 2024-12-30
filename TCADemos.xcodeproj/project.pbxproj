@@ -14,19 +14,12 @@
 			remoteGlobalIDString = 7D1344372D22E13C0078A1E1;
 			remoteInfo = TCADemos;
 		};
-		7D1344532D22E13D0078A1E1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7D1344302D22E13C0078A1E1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7D1344372D22E13C0078A1E1;
-			remoteInfo = TCADemos;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		7D1344382D22E13C0078A1E1 /* TCADemos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCADemos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D1344482D22E13D0078A1E1 /* TCADemosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TCADemosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7D1344522D22E13D0078A1E1 /* TCADemosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TCADemosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D1344652D22E16C0078A1E1 /* Features */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Features; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -62,19 +55,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7D13444F2D22E13D0078A1E1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		7D13442F2D22E13C0078A1E1 = {
 			isa = PBXGroup;
 			children = (
+				7D1344652D22E16C0078A1E1 /* Features */,
 				7D13443A2D22E13C0078A1E1 /* TCADemos */,
 				7D13444B2D22E13D0078A1E1 /* TCADemosTests */,
 				7D1344552D22E13D0078A1E1 /* TCADemosUITests */,
@@ -87,7 +74,6 @@
 			children = (
 				7D1344382D22E13C0078A1E1 /* TCADemos.app */,
 				7D1344482D22E13D0078A1E1 /* TCADemosTests.xctest */,
-				7D1344522D22E13D0078A1E1 /* TCADemosUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -140,29 +126,6 @@
 			productReference = 7D1344482D22E13D0078A1E1 /* TCADemosTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		7D1344512D22E13D0078A1E1 /* TCADemosUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7D1344622D22E13D0078A1E1 /* Build configuration list for PBXNativeTarget "TCADemosUITests" */;
-			buildPhases = (
-				7D13444E2D22E13D0078A1E1 /* Sources */,
-				7D13444F2D22E13D0078A1E1 /* Frameworks */,
-				7D1344502D22E13D0078A1E1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7D1344542D22E13D0078A1E1 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				7D1344552D22E13D0078A1E1 /* TCADemosUITests */,
-			);
-			name = TCADemosUITests;
-			packageProductDependencies = (
-			);
-			productName = TCADemosUITests;
-			productReference = 7D1344522D22E13D0078A1E1 /* TCADemosUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -177,10 +140,6 @@
 						CreatedOnToolsVersion = 16.2;
 					};
 					7D1344472D22E13D0078A1E1 = {
-						CreatedOnToolsVersion = 16.2;
-						TestTargetID = 7D1344372D22E13C0078A1E1;
-					};
-					7D1344512D22E13D0078A1E1 = {
 						CreatedOnToolsVersion = 16.2;
 						TestTargetID = 7D1344372D22E13C0078A1E1;
 					};
@@ -202,7 +161,6 @@
 			targets = (
 				7D1344372D22E13C0078A1E1 /* TCADemos */,
 				7D1344472D22E13D0078A1E1 /* TCADemosTests */,
-				7D1344512D22E13D0078A1E1 /* TCADemosUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -216,13 +174,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		7D1344462D22E13D0078A1E1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7D1344502D22E13D0078A1E1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -246,13 +197,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7D13444E2D22E13D0078A1E1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -260,11 +204,6 @@
 			isa = PBXTargetDependency;
 			target = 7D1344372D22E13C0078A1E1 /* TCADemos */;
 			targetProxy = 7D1344492D22E13D0078A1E1 /* PBXContainerItemProxy */;
-		};
-		7D1344542D22E13D0078A1E1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7D1344372D22E13C0078A1E1 /* TCADemos */;
-			targetProxy = 7D1344532D22E13D0078A1E1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -404,6 +343,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -433,6 +373,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,13 +395,17 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 27YZKU4MRD;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.m430.TCADemosTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TCADemos.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TCADemos";
 			};
 			name = Debug;
@@ -473,48 +418,18 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 27YZKU4MRD;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.m430.TCADemosTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TCADemos.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TCADemos";
-			};
-			name = Release;
-		};
-		7D1344632D22E13D0078A1E1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 27YZKU4MRD;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.m430.TCADemosUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TCADemos;
-			};
-			name = Debug;
-		};
-		7D1344642D22E13D0078A1E1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 27YZKU4MRD;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.m430.TCADemosUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TCADemos;
 			};
 			name = Release;
 		};
@@ -544,15 +459,6 @@
 			buildConfigurations = (
 				7D1344602D22E13D0078A1E1 /* Debug */,
 				7D1344612D22E13D0078A1E1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7D1344622D22E13D0078A1E1 /* Build configuration list for PBXNativeTarget "TCADemosUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7D1344632D22E13D0078A1E1 /* Debug */,
-				7D1344642D22E13D0078A1E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
