@@ -33,11 +33,6 @@
 			path = TCADemosTests;
 			sourceTree = "<group>";
 		};
-		7D1344552D22E13D0078A1E1 /* TCADemosUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = TCADemosUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +59,6 @@
 				7D1344652D22E16C0078A1E1 /* Features */,
 				7D13443A2D22E13C0078A1E1 /* TCADemos */,
 				7D13444B2D22E13D0078A1E1 /* TCADemosTests */,
-				7D1344552D22E13D0078A1E1 /* TCADemosUITests */,
 				7D1344392D22E13C0078A1E1 /* Products */,
 			);
 			sourceTree = "<group>";
